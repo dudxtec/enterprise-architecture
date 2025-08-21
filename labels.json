@@ -1,0 +1,42 @@
+[
+  {
+    "name": "backend",
+    "color": "0366d6",
+    "description": "Tópicos relacionados ao backend"
+  },
+  {
+    "name": "frontend",
+    "color": "0e8a16",
+    "description": "Tópicos relacionados ao frontend"
+  },
+  {
+    "name": "infra",
+    "color": "5319e7",
+    "description": "Infraestrutura, CI/CD, DevOps"
+  },
+  {
+    "name": "agile",
+    "color": "f9d0c4",
+    "description": "Gestão ágil, backlog, sprints"
+  },
+  {
+    "name": "produto",
+    "color": "c2e0c6",
+    "description": "Visão de produto e funcionalidades"
+  },
+  {
+    "name": "seguranca",
+    "color": "d93f0b",
+    "description": "Segurança da informação"
+  },
+  {
+    "name": "banco",
+    "color": "fbca04",
+    "description": "Banco de dados e modelagem"
+  },
+  {
+    "name": "api",
+    "color": "1d76db",
+    "description": "API Gateway e integração"
+  }
+]
