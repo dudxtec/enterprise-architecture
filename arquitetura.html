@@ -98,13 +98,72 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#enterprise-architecture" class="nav-link">Enterprise Architecture</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#arquitetura-geral" class="nav-link">🧱 Arquitetura Geral</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#diagrama-visual" class="nav-link">📌 Diagrama Visual</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
 <h1 id="arquitetura">Arquitetura</h1>
-<p>Visão geral da arquitetura do projeto Enterprise Architecture.</p></div>
+<p>Visão geral da arquitetura do projeto Enterprise Architecture.</p>
+<h1 id="enterprise-architecture">Enterprise Architecture</h1>
+<p>Este documento descreve a arquitetura do projeto <strong>Enterprise Architecture</strong>, conforme definido por Eduardo Moser.</p>
+<hr />
+<h2 id="arquitetura-geral">🧱 Arquitetura Geral</h2>
+<h3 id="frontend">🖥️ Frontend</h3>
+<ul>
+<li><strong>Next.js</strong> com comunicação via <strong>REST</strong></li>
+<li>Autenticação com <strong>Auth0</strong> (JWT)</li>
+<li>Deploy em <strong>AKS</strong> como container</li>
+</ul>
+<h3 id="backend">⚙️ Backend</h3>
+<ul>
+<li><strong>Node.js + Express</strong></li>
+<li>Estrutura modular por serviço (sem DDD)</li>
+<li>Comunicação com MongoDB via <strong>Mongoose</strong></li>
+<li>Cada serviço em seu próprio container</li>
+<li>Comunicação entre serviços via <strong>REST</strong></li>
+<li>Deploy em <strong>AKS</strong></li>
+</ul>
+<h3 id="banco-de-dados">🗃️ Banco de Dados</h3>
+<ul>
+<li><strong>MongoDB Atlas</strong></li>
+</ul>
+<h3 id="seguranca">🔐 Segurança</h3>
+<ul>
+<li>Autenticação via <strong>JWT</strong></li>
+<li>Gerenciamento de segredos com <strong>Azure Key Vault (AKV)</strong></li>
+</ul>
+<h3 id="observabilidade">📊 Observabilidade</h3>
+<ul>
+<li><strong>Prometheus</strong> + <strong>Grafana</strong></li>
+<li><strong>Azure Monitor</strong> + <strong>Application Insights</strong></li>
+<li><strong>OpenTelemetry</strong> para métricas e rastreamento</li>
+</ul>
+<h3 id="api-gateway">🚪 API Gateway</h3>
+<ul>
+<li><strong>Azure API Management</strong></li>
+</ul>
+<h3 id="devops">🚀 DevOps</h3>
+<ul>
+<li>CI/CD com <strong>GitHub Actions</strong></li>
+<li>Infraestrutura como código com <strong>Terraform</strong> ou <strong>Bicep</strong></li>
+</ul>
+<hr />
+<h2 id="diagrama-visual">📌 Diagrama Visual</h2>
+<p>um dia</p></div>
             </div>
         </div>
 
