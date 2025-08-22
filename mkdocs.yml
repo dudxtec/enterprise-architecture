@@ -1,13 +1,14 @@
 site_name: Enterprise Architecture Docs
+
 nav:
-  - Home: docs/index.md
-  - Arquitetura: docs/arquitetura.md
-  - Repositórios: docs/repositórios.md
-  - Padrões de Desenvolvimento: docs/padrões-dev.md
-  - CI/CD: docs/ci-cd.md
-  - Segurança: docs/segurança.md
-  - Observabilidade: docs/observabilidade.md
-  - Roadmap: docs/roadmap.md
+  - Home: index.md
+  - Arquitetura: arquitetura.md
+  - Repositórios: repositórios.md
+  - Padrões de Desenvolvimento: padrões-dev.md
+  - CI/CD: ci-cd.md
+  - Segurança: segurança.md
+  - Observabilidade: observabilidade.md
+  - Roadmap: roadmap.md
 
 site_url: https://dudxtec.github.io/enterprise-architecture/
 use_directory_urls: false
