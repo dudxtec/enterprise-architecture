@@ -14,4 +14,4 @@ use_directory_urls: false
 
 # Se estiver usando GitHub Pages em subdiretório:
 extra:
-  base_url: /enterprise-architecture/
+  base_url: /enterprise-architecture/docs/
