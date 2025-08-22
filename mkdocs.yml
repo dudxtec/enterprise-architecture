@@ -9,7 +9,7 @@ nav:
   - Observabilidade: docs/observabilidade.md
   - Roadmap: docs/roadmap.md
 
-site_url: https://dudxtec.github.io
+site_url: https://dudxtec.github.io/enterprise-architecture/
 use_directory_urls: false
 
 # Se estiver usando GitHub Pages em subdiretório:
